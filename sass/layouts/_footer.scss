@@ -1,0 +1,198 @@
+/* =================================================================== */
+/* 4. FOOTER & FOOTER WIDGETS
+====================================================================== */
+.footer{
+    background:#056D9C;
+    padding:30px 0;
+    position: relative;
+    color:#fff;
+}
+
+/* Footer Widgets
+====================================*/
+.widget_title {
+    position: relative;
+    margin-bottom:5px;
+    padding:10px 0;
+}
+.widget_title h4 {
+    font-size: 14px;
+    line-height:0;
+    margin-bottom:10px;
+    margin-top:0;
+}
+
+.footer .widget_title h4 {
+    color:#fefefe;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.footer .widget_content{
+    margin-top: 15px;
+}
+.footer .widget_content > p {
+    font-size: 13px;
+}
+
+/* Recent Posts Widget
+====================================*/
+.links{
+    margin:0;
+    padding:0;
+}
+
+.links i {
+    margin-right: 2px;
+}
+.links li a {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 22px;
+}
+.links li a:hover{
+    color:#CDCCCC;
+}
+.links li span {
+    display: block;
+    color:#E3E3E3;
+    font-size: 12px;
+    margin-bottom: 6px;
+}
+
+/* Twitter Feed Widget
+====================================*/
+.tweet_list {
+    padding: 0;
+    position: relative;
+    margin:0 auto;
+    font-family: "Open sans", Helvetica, Arial, sans-serif;
+}
+.tweet_list li {
+    color: #fff;
+    margin-bottom: 5px;
+}
+.tweet_list li i {
+    float: left;
+    font-size: 16px;
+    line-height: 20px;
+    padding-right: 8px;
+    position: relative;
+}
+.tweet_list li p {
+    line-height: 20px;
+    overflow: hidden;
+    margin-bottom:0px;
+}
+.tweet_list li p a {
+    color: #fff;
+    font-weight: 700;
+    font-size: 12px
+}
+.tweet_list li p a:hover{
+    text-decoration: underline;
+}
+.time {
+    font-size: 12px;
+    color:#E3E3E3;
+    font-family: Lato;
+    font-weight: bold;
+    padding-left: 25px;
+}
+
+/* Contact Widget
+====================================*/
+.contact-details-alt{padding:0;}
+.contact-details-alt li p strong { color:#fff; float: left; margin: 0;font-size:12px;width:25%;}
+.contact-details li p strong { color:#666; float: left; margin: 0 5px 5px 0; }
+.contact-details-alt li {
+    margin: 0 0 5px 0;
+}
+.contact-details p,
+.contact-details li,
+.contact-details a {color: #666;}
+.contact-details-alt p {
+    line-height: 18px;
+    width: 100%;
+    margin:0;
+}
+.contact-details-alt p a {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size:12px;
+}
+.contact-details-alt p a:hover {
+    color:#CDCCCC;
+}
+.contact-details-alt li i {
+    float: left;
+    font-size: 12px;
+    margin: 2px 0 0 0 ;
+    width: 15px;
+}
+
+/* Footer Bottom
+====================================*/
+.footer_bottom{
+    background: darken(#056D9C, 15%);
+    padding:20px 0;
+    color:#fff;
+}
+.copyright {
+    font-size: 12px;
+    line-height: 40px;
+    margin: 0;
+}
+.copyright a{
+    color:#fff;
+    text-decoration:none;
+}
+.copyright a:hover{
+    color:#cdcccc;
+}
+
+/* Footer Social
+====================================*/
+.footer_social{
+    float: right;
+}
+.footbot_social {
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+}
+.footbot_social li {
+    float: left;
+    background: none !important;
+}
+.footbot_social li a {
+    color: #fff;
+    display:block;
+    height:33px;
+    text-align: center;
+    width:30px;
+    -webkit-transition: 0.25s;
+    -moz-transition: 0.25s;
+    -o-transition: 0.25s;
+    transition: 0.25s;
+    margin: 0 2px;
+}
+.footbot_social li a i {
+    font-size: 18px;
+    line-height:35px;
+    margin-right: 0;
+    float: none;
+}
+.footbot_social li a.fb:hover            {background:#1964DA; border-radius: 5px; color:#fff;}
+.footbot_social li a.twtr:hover          {color: #fff; background:#3ABDD1; border-radius:5px;}
+.footbot_social li a.gmail:hover         {color: #fff;}
+.footbot_social li a.pinterest:hover     {color: #fff;}
+.footbot_social li a.rss:hover           {color: #fff; background:#F15200; border-radius:5px;}
+.footbot_social li a.tumblr:hover        {color: #fff;}
+.footbot_social li a.flickr:hover        {color: #fff;}
+.footbot_social li a.instagram:hover     {color: #fff;}
+.footbot_social li a.linkedin:hover      {color: #fff;}
+.footbot_social li a.skype:hover         {color: #fff; background:#00AAF1; border-radius:5px;}
+.footbot_social li a.youtube:hover       {color: #fff;}
+.footbot_social li a.dribbble:hover      { color: #fff; background:#F97193; border-radius:5px;}

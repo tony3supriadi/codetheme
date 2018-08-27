@@ -1,0 +1,14 @@
+/* ==================================================
+   24. TITLE
+================================================== */
+.dividerHeading {
+    position: relative;
+    margin-bottom:25px;
+}
+.dividerHeading h4 {
+    border-bottom: 1px solid #ccc;
+    font-size: 18px;
+    line-height: 0;
+    text-align:center;
+}
+.dividerHeading h4 > span{background:#fff; padding:0 10px;}

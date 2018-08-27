@@ -1,0 +1,113 @@
+/* ===================================================== */
+/* 9. ABOUT PAGE										 */
+/* ===================================================== */
+.who p {
+    color: #666;
+    font-size:14px;
+}
+
+/* OUR TEAM PAGE  */
+/* ===================================================== */
+.team_pic{
+    text-align:center;
+}
+.team_pic > img {
+    max-width: 100%;
+    width:210px;
+    height:210px;
+    cursor: pointer;
+    border-radius:100%;
+    border:2px solid #E7E7E7;
+    padding:4px;
+    background:#F2F2F2;
+    transition:all 0.4s ease-in-out;
+    -webkit-transition:all 0.4s ease-in-out;
+    -moz-transition:all 0.4s ease-in-out;
+    -ms-transition:all 0.4s ease-in-out;
+    -o-transition:all 0.4s ease-in-out;
+}
+.team_pic:hover img,.team_social_media:hover {
+    cursor: pointer;
+    border-color:#F5C1CA;
+}
+.names {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+    color:#666;
+    text-transform: uppercase;
+}
+.names > small {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 30px;
+    text-transform:capitalize;
+}
+.description {
+    color: #666666;
+    font-size:14px;
+}
+.profile {
+    padding-bottom: 5px;
+    text-align:center;
+}
+.team_profile {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: -moz-use-text-color #ecf0f1 #f2f2f2;
+    border-image: none;
+    padding: 10px 15px 5px;
+    overflow: hidden;
+}
+
+
+/* SOCIAL MEDIA OUR TEAM	*/
+/* ===================================================== */
+.team_social_media {
+    margin: 8px auto 2px;
+    border:1px solid #EDEAEA;
+}
+.team_social {
+    list-style: none outside none;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+}
+.team_social li {
+    float: left;
+    background: none !important;
+}
+.team_social li a {
+    color: #666;
+    display:block;
+    height: 35px;
+    text-align: center;
+    width: 35px;
+    border-radius:50%;
+    -webkit-border-radius: 50%;-moz-border-radius: 50%;
+    -webkit-transition: 0.25s;
+    -moz-transition: 0.25s;
+    -o-transition: 0.25s;
+    transition: 0.25s;
+}
+.team_social li a i {
+    font-size: 16px;
+    line-height: 35px;
+    margin-right: 0;
+    float: none;
+}
+.team_social li a.fb:hover      {color: #2f5a9a;}
+.team_social li a.twtr:hover    {color: #3abdd1;}
+.team_social li a.gmail:hover   {color: #363636;}
+.team_social li a.pinterest:hover{color: #d13a3a;}
+.team_social li a.rss:hover     {color: #f15200;}
+.team_social li a.tumblr:hover  {color: #203550;}
+.team_social li a.flickr:hover        {color: #ff0084;}
+.team_social li a.instagram:hover     {color: #507ea4;}
+.team_social li a.linkedin:hover      {color: #0072b2;}
+.team_social li a.skype:hover         {color: #00aaf1;}
+.team_social li a.youtube:hover       {color: #ff3330;}
+.team_social li a.dribbble:hover      { color: #f973a4;}
+

@@ -1,0 +1,101 @@
+/* ==================================================
+   28. CAROUSEL
+================================================== */
+.porDetCarousel,.porDet2Carousel {
+	margin-bottom: 40px;
+	overflow: hidden;
+}
+.carousel-content, .porDetCarousel, .porDet2Carousel {position: relative;}
+.carousel-item {
+	width: 100%;
+    display: block;
+    visibility: hidden;
+    position: absolute;
+    top: 0;    left: 0;
+}
+.carousel-item.active {
+	display: block;
+    visibility: visible;
+    position: static;
+}
+.carousel-item.current {    
+	left: 0;
+	right: 0;
+	visibility: visible;
+	z-index: 1;
+}
+.carousel-item {
+	max-width: 100%;
+	display: block;
+}
+.carousel-control {
+	position: absolute;
+	top: 0;		left: 0;
+	bottom: 0;	right: 0;
+	overflow: hidden;
+    width: 100%;
+}
+
+.aboutCarousel:hover .carousel-prev { left: 10px; }
+.aboutCarousel:hover .carousel-next { right: 10px; }
+.porDetCarousel:hover .carousel-prev { left: 10px; }
+.porDetCarousel:hover .carousel-next { right: 10px; }
+.porDet2Carousel:hover .carousel-prev { left: 10px; }
+.porDet2Carousel:hover .carousel-next { right: 10px; }
+.carousel-prev, .carousel-next {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 45%;
+	left: -40px;
+	z-index: 2;
+	background: #666;
+	border-radius: 2px;
+	cursor: pointer;
+	-webkit-transition: background-color 0.2s ease, left 0.2s ease, right 0.2s ease;
+	transition: background-color 0.2s ease, left 0.2s ease, right 0.2s ease;
+}
+.carousel-next {
+	left: auto;
+	right: -40px;
+}
+.carousel-prev:hover, .carousel-next:hover {
+	background: #555;
+}
+.carousel-prev:before, .carousel-next:before {
+	content: '\f104';
+	display: block;
+	text-align: center;
+	line-height: 40px;
+	font: 20px/40px 'FontAwesome';
+	color: #fff;
+}
+.carousel-next:before {
+	content: '\f105';
+}
+.carousel-next:hover:before,
+.carousel-prev:hover:before{color: #fff;}
+.carousel-pagination {
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	-webkit-transition: bottom 0.2s ease;transition: bottom 0.2s ease;
+	-webkit-transform: translateX(-50%);transform: translateX(-50%);
+	z-index: 2;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+	line-height: 50px;
+}
+.carousel-pagination li {
+	background:rgba(0, 0, 0, 0.5);
+	cursor: pointer;
+	float: left;
+	height: 6px;
+	margin: 0 2px;
+	width: 20px;
+}
+.carousel-pagination li.active {
+	background: #056D9C;
+}

@@ -1,0 +1,48 @@
+/* ==================================================
+   17. BUTTONS
+================================================== */
+
+.btn-rounded {
+    border-radius: 15px;
+}
+
+/* Social Buttons
+====================================*/
+.btn-social-googleplus {
+    background-color: hsl(0, 0%, 18%);
+}
+.btn-social-facebook {
+    background-color:#3453A2;
+}
+.btn-social-twitter {
+    background-color:#2ABBE3;
+}
+.btn-social-pinterest {
+    background-color: #D91F25;
+}
+.btn-social-linkedin {
+    background-color:#1F80BB;
+}
+.btn-social-stumbleupon {
+    background-color:#E86130;
+}
+.btn-social-stumbleupon,
+.btn-social-linkedin,
+.btn-social-pinterest,
+.btn-social-twitter,
+.btn-social-facebook,
+.btn-social-googleplus
+{
+    color:#fff;
+    border-radius: 3px;
+}
+.btn-social-stumbleupon:hover,
+.btn-social-googleplus:hover ,
+.btn-social-linkedin:hover,
+.btn-social-pinterest:hover,
+.btn-social-twitter:hover,
+.btn-social-facebook:hover
+{
+    background:#333;
+    color:#fff;
+}

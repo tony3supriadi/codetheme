@@ -1,0 +1,180 @@
+/* =================================================================== */
+/* 3. NAVIGATION
+====================================================================== */
+
+#navigation { float: right; z-index:9999;}
+
+.js .selectnav { display: none; }
+
+.menu ul {
+	margin: 0;
+	padding: 0;
+}
+
+.menu ul li { position: relative; z-index:100000;}
+.menu ul ul {
+	position: absolute;
+	display: none;
+	top: 100%;
+	left: 0;
+	z-index: 100;
+	width: 188px;
+}
+.menu > ul li { float: left; cursor: pointer;}
+.menu ul li:hover > ul { display: block; }
+.menu ul a {display: block;position: relative;}
+
+.menu ul ul li a.sf-with-ul:after{
+    content: "\f0da";
+    color:#F27693;
+    font-family: FontAwesome;
+    font-size:15px;
+    border-radius:0;
+    left: 11.3em;
+    margin-right: -3px;
+    margin-top: -5px;
+    position: absolute;
+    top: 43%;
+}
+.menu ul ul li a:hover.sf-with-ul:after{
+	border-color: #FBFBFB #FBFBFB #FBFBFB #056D9C;
+	-moz-border-right-colors:#FBFBFB
+}
+
+.menu ul ul ul {top: 0;left: 100%;}
+.menu ul a { text-decoration: none; }
+.menu ul > li > a {
+	font-weight:400;
+	font-size: 14px;
+	line-height: 18px;
+	padding:13px 14px!important;
+	overflow: hidden;
+	border-bottom: 2px solid transparent;
+	transition: all .25s ease-in-out;
+	-moz-transition: all .25s ease-in-out;
+	-webkit-transition: all .25s ease-in-out;
+    text-transform: uppercase;
+}
+.menu > ul > li > a {
+    color:#056D9C!important;}
+.menu ul li a:hover,
+
+.menu li.current-menu-item > a:after, .menu li.sfHover > a:after, .menu li a:hover:after
+{
+    width: 100%;
+}
+.menu li a:after
+{
+    background:#056D9C;
+    top:-2%;
+    content: "";
+    height:2px;
+    right: 0;
+    position: absolute;
+    transition: all 0.3s ease 0s;
+    width: 0;
+    border-top-left-radius:4px ;
+    border-top-right-radius:4px ;
+}
+.menu li a.border:before
+{
+    background:#056D9C;
+    top:-2%;
+    content: "";
+    height:2px;
+    right: 0;
+    position: absolute;
+    transition: all 0.3s ease 0s;
+    width:100%;
+    border-top-left-radius:4px ;
+    border-top-right-radius:4px ;
+}
+.menu ul li a:hover .sf-sub-indicator{
+	color:#056D9C;
+}
+
+.menu > ul > li > ul:before{
+    border-bottom:10px solid #056D9C;
+    border-left:8px solid transparent;
+    border-right:8px solid transparent;
+    content: " ";
+    height: 8px;
+    left: 37%;
+    margin-left: 2px;
+    position: absolute;
+    top: 0;
+    vertical-align: middle;
+    width: 12px;
+}
+.ie8 #current:after {
+	display: none;
+}
+.menu ul li a {
+	-webkit-transition: border 150ms ease-in-out, background-color 150ms ease-in-out;
+	-moz-transition: border 150ms ease-in-out, background-color 150ms ease-in-out;
+	-o-transition: border 150ms ease-in-out, background-color 150ms ease-in-out;
+	-ms-transition: border 150ms ease-in-out, background-color 150ms ease-in-out;
+	transition: border 150ms ease-in-out, background-color 150ms ease-in-out;
+}
+
+
+/* Drop-Down */
+.menu ul ul {
+	z-index: 999;
+	border-radius: 0 0 3px 3px;
+	border-bottom:1px solid #DCDCDC;
+}
+.menu > ul > li > ul{	padding:9px 0 0 0;}
+.menu > ul > li ul > li:first-child > a{border-top: 2px solid #056D9C;}
+
+.menu > ul ul li:hover > a {
+	background: transparent;
+}
+
+.menu ul ul li {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+    background: #fff;
+}
+
+.menu ul ul li a {
+	color: #555;
+	font-size: 13px;
+	line-height: 18px;
+	padding: 10px 16px !important;
+	border-right:1px solid #DCDCDC;
+	border-left:1px solid #DCDCDC;
+}
+
+.menu ul ul li { border-top: 1px solid #e8e8e8; }
+.menu ul ul li:first-child { border: 0; }
+
+.menu ul ul li a:hover {
+	color:#056D9C;
+	background-color: #F8F8F8;
+}
+
+.menu ul ul li a {
+	-webkit-transition: background-color 50ms ease-in-out;
+	-moz-transition: background-color 50ms ease-in-out;
+	-o-transition: background-color 50ms ease-in-out;
+	-ms-transition: background-color 50ms ease-in-out;
+	transition: background-color 50ms ease-in-out;
+}
+
+.menu ul ul ul {
+	border: 1px solid #e0e0e0;
+	border-radius: 0 3px 3px 3px;
+	margin: -1px 0 0 0;
+}
+
+.sf-sub-indicator {
+	color: #056D9C;
+	margin: 0 0 0 5px;
+	width: 11px;
+	display: inline-block;
+	font-size: 12px;
+	line-height: 0;
+}
+.menu ul ul .sf-sub-indicator .fa-angle-down { display: none; }

@@ -1,0 +1,26 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/font-awesome-sass/assets/stylesheets/font-awesome";
+
+
+// @import "template";
+
+@import "main.scss";
+
+@import "layouts/header";
+@import "layouts/footer";
+
+@import "pages/blog";
+
+@import "components/navigation";
+@import "components/slider";
+@import "components/serviceBox";
+@import "components/list";
+@import "components/carousel";
+@import "components/title";
+@import "components/recentBlog";
+@import "components/swipe";
+@import "components/testimonial";
+@import "components/recent-work-carousel";
+@import "components/flickr";
+@import "components/buttons";
+

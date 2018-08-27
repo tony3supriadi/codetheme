@@ -1,0 +1,200 @@
+/*
+  Theme Name: CodeGuide.ID
+  Theme URL: https://www.codeguide.id/
+  Author: CodeGuide Develooper
+*/
+
+/* #HEADER */
+header, #header {
+  display: block;
+  z-index: 99999;
+  position: relative;
+  width: 100%;
+  background: #ED687C;
+
+  #top-bar {
+    color: #fff;
+    padding: 3px 0;
+
+    .top-info {
+
+      span, a, em { 
+        float: left;
+      }
+
+      span { 
+        font-size: 13px; 
+        line-height: 28px; 
+        text-transform: capitalize;
+        padding-right: 15px;
+
+        i {
+          font-size:13px; 
+          margin-right:5px;
+        }
+      }
+
+      ul {
+        float: right; 
+        margin-bottom:0;
+        list-style: none;
+
+        li {
+          float: left;
+
+          a {
+            color:#fff; 
+            font-size: 15px; 
+            border:1px solid #fff;
+            height: 26px;
+            width: 26px;
+            transition:all 0.3s ease-in 0s;
+            -webkit-transition:all 0.3s ease-in 0s;
+            -moz-transition:all 0.3s ease-in 0s;
+            -ms-transition:all 0.3s ease-in 0s;
+            -o-transition:all 0.3s ease-in 0s;
+            border-radius: 100%;
+            -webkit-border-radius: 100%;
+            -moz-border-radius: 100%;
+            -ms-border-radius: 100%;
+            -o-border-radius: 100%;
+            margin: 0 2px;
+            line-height: 23px;
+            text-align: center;
+          }
+
+        }
+
+        li:hover {
+
+          a.my-tweet {
+            background:#fff; 
+            color:#3ABDD1;
+          }
+
+          a.my-facebook {
+            background:#fff; 
+            color:#648CD5;
+          }
+
+          a.my-skype {
+            background:#fff; 
+            color:#00AFFF;
+          }
+
+          a.my-pint {
+            background:#fff; 
+            color:#DE5656;
+          }
+
+          a.my-rss {
+            background:#fff; 
+            color:#EF8D1F;
+          }
+
+          a.my-google {
+            background:#fff; 
+            color:#E73904;
+          }  
+
+        }
+
+      }
+
+    }
+
+  }
+
+  #nav-bar {
+    background: #BE485B;
+  }
+
+  .fixed-header {
+    
+    #nav-bar{
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 999;
+    }
+  }
+
+  #logo > h1 {
+    line-height: 0;
+    font-size: 0;
+    margin: 0;
+  }
+
+  #logo a {
+      float: left;
+      line-height: 46px;
+      color:#fff;
+  }
+
+  #logo a img {
+    width:100%;
+  }
+
+  #navigation { 
+    float: right; 
+    z-index:9999; 
+  }
+}
+
+
+/* RESPONSIVE */
+@media only screen and (max-width:768px) {
+  
+  #mobile-navigation { 
+    display: block; 
+  }
+
+	#responsive {
+    display: none; 
+  }
+
+  #nav-bar {
+    background: #BE485B; 
+    height:45px; 
+  }
+
+	#header {
+		z-index: 999;
+		margin-top: 0;
+		position: relative;
+		width: 100%;
+  }
+  
+  .top-info strong {
+    margin-left:9px;
+  }
+
+  .top-info ul {
+    margin:0 auto;
+  }
+
+  #top-bar {
+    padding: 3px 0;
+  }
+
+  body { 
+    padding-top: 0; 
+  }
+
+	#logo a img {
+		height: auto;
+	}
+
+}
+
+@media only screen and (max-width: 320px) {
+
+    .top-info li a {
+        margin: 0 2px;
+        height: 26px;
+        line-height: 23px;
+        text-align: center;
+        width: 26px;
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,28 @@
+/* ===================================================== */
+/* 25. DROPCAPS												 */
+/* ===================================================== */
+.dropcap {
+    float: left;
+    color: #169fe6;
+    font-size: 58px;
+    line-height: 54px;
+    padding:6px 10px 8px;
+    margin-top: 8px;
+}
+.dropcap.default { color: #056D9C; }
+.dropcap.gray { color: #555; }
+.dropcap.light { color: #aaa; }
+.dropcap_block {
+    float: left;
+    background-color: #056D9C;
+    font-size: 50px;
+    line-height: 50px;
+    padding:6px 10px 8px;
+    margin-top: 8px;
+    margin-right:10px;
+    color:#fff;
+}
+.dropcap_block.default { background-color: #056D9C; }
+.dropcap_block.gray { background-color: #555; }
+.dropcap_block.light { background-color: #aaa; }
+

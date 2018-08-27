@@ -1,0 +1,11 @@
+/* ===================================================== */
+/* 23. PAGINATION										 */
+/* ===================================================== */
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+    background:#056D9C;
+    border-color: #056D9C;
+}
+.pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+    background:#ec7063;
+    border-color: #ec7063;
+}

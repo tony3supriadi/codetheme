@@ -1,0 +1,15 @@
+/* ===================================================== */
+/* 15. CLIENTS												 */
+/* ===================================================== */
+
+ul.client_items { padding: 0; }
+
+ul.client_items li {
+    float: left;
+    list-style:none;
+}
+
+ul.client_items .img{
+    max-width:100%;
+    width:166px !important;
+}

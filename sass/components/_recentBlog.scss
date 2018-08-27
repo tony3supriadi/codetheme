@@ -1,0 +1,108 @@
+/* ===================================================== */
+/* 32. RECENT BLOG POST									 */
+/* ===================================================== */
+.blogTitle {
+    margin: auto auto 10px;
+    position: relative;
+}
+.blogTitle > a h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    margin-top:0;
+    color: #555;
+    font-weight: 600;
+    text-decoration: none;
+    -webkit-transition: 0.25s;-moz-transition: 0.25s;-o-transition: 0.25s;transition: 0.25s;
+}
+.blogTitle > a:hover h2{color: #056D9C;}
+
+.blogTitle span {
+    color: #777;
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 24px;
+}
+.blogTitle span i {
+    padding-right: 5px;
+    font-size: 12px;
+}
+.blogTitle span:hover i {
+    color: #777;
+}
+.blogContent > p {
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.blogMeta {
+    display: inline-block;
+    padding: 5px 0 0;
+    position: relative;
+
+}
+.blogMeta a {
+    color: #777;
+    font-size: 12px;
+    line-height: 20px;
+    margin-right: 15px;
+    text-decoration: none;
+}
+.blogMeta a:hover, .blogTitle span:hover{color: #056D9C}
+.blogMeta a i{
+    padding-right: 5px;
+    font-size: 14px;
+}
+.blogMeta a:hover i{color: #777;}
+.blogDetail {
+    border: 1px solid #f2f2f2;
+    display: inline-block;
+    padding: 15px;
+    position: relative;
+}
+.blogteam_pic { position: relative; }
+.blogteam_pic > img {
+    width: 100%;
+}
+.blog-hover > a {
+    display: block;
+    left: 45%;
+    position: absolute;
+    top: 35%;
+}
+.blogteam_pic .blog-hover{
+    background:rgba(255,255,255, 0.5);
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    -webkit-transition: all 120ms ease-in-out;-moz-transition: all 120ms ease-in-out;-o-transition: all 120ms ease-in-out;-ms-transition: all 120ms ease-in-out;transition: all 120ms ease-in-out;
+    width: 100%;
+}
+.blogteam_pic:hover .blog-hover{opacity: 1;}
+.blogteam_pic .blog-hover .icon {
+    background: #056D9C;
+    border-radius: 50% 50% 50% 50%;
+    display: block;
+    height: 40px;
+    margin: 25% auto 0;
+    position: relative;
+    -webkit-transition: all 200ms ease-in-out;-moz-transition: all 200ms ease-in-out;-o-transition: all 200ms ease-in-out;-ms-transition: all 200ms ease-in-out;transition: all 200ms ease-in-out;
+    color: #f2f2f2;
+    width: 40px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 40px;
+    top: 50%;
+}
+.blogteam_pic .blog-hover .icon:hover{
+    background:#555;
+}
+.blogteam_pic:hover .blog-hover .icon{
+    top: 0;
+}
+.blogteam_pic .blog-hover p {
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}

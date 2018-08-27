@@ -1,0 +1,109 @@
+/*--------------------------------------------------------------------------*/
+/* 13. TESTIMONIALS
+/*--------------------------------------------------------------------------*/
+
+.testimonial-item blockquote {
+    background: #f2f2f2;
+    border-left: 3px solid #056D9C;
+    padding: 20px;
+    margin: 0;
+}
+blockquote
+{
+    font-size:13px!important;
+}
+.testimonial-item .icon {
+    color: #fff;
+    font-size: 120px !important;
+    line-height: 0;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    z-index: 0;
+}
+.testimonial-review > img {
+    background:#FFFFFF;
+    border: 2px solid #056D9C;
+    border-radius: 50%;
+    float: left;
+    height: 70px;
+    overflow: hidden;
+    padding: 2px;
+    width: 70px;
+}
+.testimonial-review > h1 {
+    float: left;
+    color:#555;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 15px;
+    padding-left: 20px;
+}
+.testimonial-item blockquote p {
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #444;
+    position: relative;
+    z-index: 10;
+    font-style:italic;
+    font-weight: 500;
+}
+
+.testimonial blockquote small {
+    display: block;
+    line-height: 20px;
+    font-size: 12px;
+    color: #999999;
+    margin-top: 5px;
+}
+.testimonial-review {
+    position: relative;
+    padding-top: 20px;
+}
+
+.testimonial-item blockquote:after {
+    font-family: FontAwesome;
+    content: "\f0D7";
+    position: absolute;
+    bottom: 4%;
+    left: 23px;
+    font-size: 40px;
+    color: #f2f2f2;
+}
+
+.testimonial-review small {
+    font-size: 13px;
+    line-height:18px;
+    color: #056D9C;
+    display:block;
+}
+
+#testimonial-carousel {
+    margin-top: 25px;
+
+}
+.testimonial .testimonial-buttons {
+    position: absolute;
+    right: 0;
+    top: -40px;
+}
+
+.testimonial .testimonial-buttons a {
+    background: #f2f2f2;
+    margin-left: -1px;
+    width:25px;
+    font-size:11px;
+    height:25px;
+    display: inline-block;
+    text-align: center;
+    line-height:27px;
+    color:#bdc3c7;
+}
+
+.testimonial .testimonial-buttons a:hover {
+    background: #f2f2f2;
+    color: #555;
+}

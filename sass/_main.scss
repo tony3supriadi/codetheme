@@ -1,0 +1,110 @@
+/* =================================================================== */
+/*  1. Import Section
+====================================================================== */
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700");
+@import url(http://fonts.googleapis.com/css?family=Lato:400,300,700);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700);
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-weight: 600;
+}
+body, h1, h2, h3, h4, h5, h6, .button, input[type="button"], input[type="submit"], input[type="text"], input[type="password"], input[type="email"], textarea, select {
+    font-family: "Open Sans",Helvetica,Arial,sans-serif;
+    font-size:13px;
+    line-height:20px;
+    color:#555;
+}
+h1 {
+    font-size: 28px;
+    line-height: 50px;
+}
+
+h2 {
+    font-size: 22px;
+    line-height: 30px;
+}
+h3 {
+    font-size: 16px;
+    line-height: 30px;
+}
+h4 {
+    font-size: 14px;
+    line-height: 30px;
+}
+h5 {
+    font-size: 10px;
+    line-height: 21px;
+}
+h6 {
+    font-size: 12px;
+    line-height: 24px;
+}
+
+a { text-decoration: none;color:#056D9C; }
+
+a:hover {
+    text-decoration: none;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	color:#555;
+}
+a:focus{
+    outline: none;
+}
+
+.not-ie a {
+	-webkit-transition: background-color .2s ease, border .2s ease, color .2s ease, opacity .2s ease-in-out;
+	   -moz-transition: background-color .2s ease, border .2s ease, color .2s ease, opacity .2s ease-in-out;
+		-ms-transition: background-color .2s ease, border .2s ease, color .2s ease, opacity .2s ease-in-out;
+		 -o-transition: background-color .2s ease, border .2s ease, color .2s ease, opacity .2s ease-in-out;
+			transition: background-color .2s ease, border .2s ease, color .2s ease, opacity .2s ease-in-out;
+}
+
+ul{
+    list-style:none;
+    padding: 0;
+    margin:0;
+}
+
+.wrapper {
+    background:#FFFFFF;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.hidden {
+    display:none;
+}
+
+.mrgb-20{
+    margin-bottom:20px;
+    display:block;
+}
+.mrgb-30{
+    margin-bottom:30px;
+    display: inline-block;
+}
+.mrgb-40{
+    margin-bottom:40px;
+    position:relative;
+    display:block;
+}
+.mrgb-50{
+    margin-bottom:50px;
+    position:relative;
+    display:block;
+}
+.mrgb-60{
+    margin-bottom:60px;
+    position:relative;
+    display:block;
+}
+.mrg-0{
+    margin:0 auto;
+}
+.mrgt-0{
+    margin:0 auto 20px;
+}

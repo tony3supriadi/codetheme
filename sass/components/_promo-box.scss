@@ -1,0 +1,76 @@
+/* ===================================================== */
+/* 22. PROMO BOX										 */
+/* ===================================================== */
+.promo_content.no-padd{
+    padding:0;
+}
+.promo_content {
+    background:#f2f2f2;
+    padding: 30px 20px;
+}
+.promo_content a {
+    float: right;
+    margin-top:5px;
+}
+.pb_action .btn.btn-danger
+{
+    background:#056D9C;
+    border:none;
+    border-bottom:3px solid #C6445A;
+    font-size:14px;
+    padding:10px 15px;
+}
+.pb_action .btn.btn-danger:hover
+{
+    background:#D7415A;
+    border-bottom-color:#A62E42;
+    transition:all 0.3s ease-in-out;
+    -webkit-transition:all 0.3s ease-in-out;
+    -moz-transition:all 0.3s ease-in-out;
+    -ms-transition:all 0.3s ease-in-out;
+    -o-transition:all 0.3s ease-in-out;
+}
+
+/* --------------------------------------------- */
+.promo_box {
+    background:#f2f2f2;
+    padding: 30px 0;
+    margin-top:20px;
+    border-bottom:1px solid #E4E4E4;
+}
+.promo_content .pb_text {
+    display: table-cell;
+    vertical-align: middle;
+}
+.promo_content .pb_action {
+    display: table-cell;
+    margin: 0;
+    padding-left: 40px;
+    text-align: right;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.promo_content h3 {
+    color: #444;
+    font-size: 22px;
+    font-weight: bold;
+    font-family:PT+sans;
+    margin: 0 0 5px;
+}
+.promo_content p{
+    color:#666;
+    font-family:PT+sans;
+    margin-bottom:0;
+}
+.promo_box a {
+    margin-top: 5px;
+    float: right;
+}
+.promo_box a i{
+    margin-right:7px;
+}
+.promo_box .btn.btn-default
+{
+    padding:10px 15px;
+    font-size:14px;
+}

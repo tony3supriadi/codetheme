@@ -1,0 +1,52 @@
+/* =========================================*/
+/* 20. ACCORDION & TOGGLE                  */
+/* =========================================*/
+.panel-heading,.panel-group .panel
+{
+    border-radius:0;
+}
+.panel-heading
+{
+    padding-right:6px;
+    padding-left:6px;
+}
+
+.panel.active_acc,
+.panel:hover
+{
+    border-top-color:#056D9C;
+}
+.active_acc .panel-title a,
+.active_acc .accordian-icon
+{
+    color:#056D9C;
+}
+
+.panel-heading:hover  a,
+.panel-heading:hover .accordian-icon
+
+{
+    color:#056D9C;
+}
+.accordian-icon
+{
+    float:left;
+    padding:0 8px ;
+}
+.panel-default > .panel-heading
+{
+    background:none;
+}
+.panel-title > a
+{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 0;
+    color:#585858;
+    display:block;
+    outline:none;
+}
+.panel-group .panel-heading + .panel-collapse .panel-body
+{
+    border-top:none;
+}

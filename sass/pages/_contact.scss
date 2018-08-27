@@ -1,0 +1,117 @@
+/* =================================================================== */
+/* 10. CONTACT PAGE FORM
+====================================================================== */
+
+.contact{
+    padding:50px 0;
+}
+input[type="submit"]{ background:#aaa; color:#fff !important;}
+
+textarea {
+    resize: vertical;
+}
+
+#contactForm{
+    margin-top:30px;
+}
+
+.form-control {
+    height: 46px;
+    border-radius:0;
+    padding: 12px;
+    margin-bottom: 10px;
+}
+
+label.error {
+    color: #ebedef;
+    font-size: 13.006px;
+    line-height: 18.004px;
+    font-weight: normal;
+    margin-right: 4px;
+    text-shadow: none;
+    text-decoration: none;
+    display: block;
+    margin-top: -6px;
+}
+label.error {
+    color: #056D9C;
+}
+label{
+    margin-bottom:10px;
+}
+
+#contact_maps{
+    max-height:380px;
+    height:360px;
+}
+
+/* Contact Info Widget
+====================================*/
+
+.widget_info_contact{ padding:0;margin-top:20px; }
+.widget_info_contact li{ list-style:none; }
+.widget_info_contact li p strong { color:#666; float: left; margin: 0 5px 5px 0;font-size: 12px;width:20%;}
+.widget_info_contact li {
+    margin: 0 0 5px 0;
+}
+.widget_info_contact p {
+    margin: 0 0 0 20px;
+    line-height: 18px;
+    overflow:hidden;
+}
+.widget_info_contact p a {
+    color: #666;
+    font-weight: 600;
+    font-size: 12.5px;
+}
+.widget_info_contact p a:hover {
+    color: #919191;
+}
+.widget_info_contact li i {
+    float: left;
+    margin: 1px 0 0 0;
+}
+
+/* Social Widget
+====================================*/
+.widget_social {
+    list-style: none outside none;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+}
+.widget_social li {
+    float: left;
+    background: none !important;
+}
+.widget_social li a {
+    color: #666;
+    display:block;
+    height: 46px;
+    text-align: center;
+    width: 46px;
+    border-radius:50%;
+    -webkit-border-radius: 50%;-moz-border-radius: 50%;
+    -webkit-transition: 0.25s;
+    -moz-transition: 0.25s;
+    -o-transition: 0.25s;
+    transition: 0.25s;
+}
+.widget_social li a i {
+    font-size: 22px;
+    line-height: 46px;
+    margin-right: 0;
+    float: none;
+}
+.widget_social li a.fb:hover      {color: #2f5a9a;}
+.widget_social li a.twtr:hover    {color: #3abdd1;}
+.widget_social li a.gmail:hover   {color: #363636;}
+.widget_social li a.pinterest:hover{color: #d13a3a;}
+.widget_social li a.rss:hover     {color: #f15200;}
+.widget_social li a.tumblr:hover  {color: #203550;}
+.widget_social li a.flickrs:hover        {color: #ff0084;}
+.widget_social li a.instagram:hover     {color: #507ea4;}
+.widget_social li a.linkedin:hover      {color: #0072b2;}
+.widget_social li a.skype:hover         {color: #00aaf1;}
+.widget_social li a.youtube:hover       {color: #ff3330;}
+.widget_social li a.dribbble:hover      { color: #f973a4;}

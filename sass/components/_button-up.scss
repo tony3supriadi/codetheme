@@ -1,0 +1,34 @@
+/* ===================================================== */
+/* 31. BUTTON UP											 */
+/* ===================================================== */
+
+.btntoTop {
+    width: 44px;
+    height: 44px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color:#474646;
+    border-radius: 2px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    opacity: 0;
+    -webkit-transition: opacity 0.2s ease;
+    transition: opacity 0.2s ease;
+    border-bottom:3px solid #292626;
+}
+
+.btntoTop:before {
+    content: "\f106";
+    display: inline-block;
+    vertical-align: middle;
+    font: 20px 'FontAwesome';
+    color: #b8bcc0;
+}
+.btntoTop.active {
+    opacity: 1;
+}
+.btntoTop.active:hover{
+    opacity: 0.8
+}

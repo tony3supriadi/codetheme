@@ -1,0 +1,160 @@
+/* ========================================================== */
+/* 6. PORTFOLIO/PROJECTS
+/* ========================================================== */
+
+.isotope-item {
+    z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+    pointer-Leaguents: none;
+    z-index: 1;
+}
+
+/* Isotope CSS3 transitions */
+.isotope,
+.isotope .isotope-item {
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -ms-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+}
+
+.isotope {
+    -webkit-transition-property: height, width;
+    -moz-transition-property: height, width;
+    -ms-transition-property: height, width;
+    -o-transition-property: height, width;
+    transition-property: height, width;
+}
+
+.isotope .isotope-item {
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property: -moz-transform, opacity;
+    -ms-transition-property: -ms-transform, opacity;
+    -o-transition-property: top, left, opacity;
+    transition-property: transform, opacity;
+}
+
+/* Disabling Isotope CSS3 transitions */
+.isotope.no-transition,
+.isotope.no-transition .isotope-item,
+.isotope .isotope-item.no-transition {
+    -webkit-transition-duration: 0s;
+    -moz-transition-duration: 0s;
+    -ms-transition-duration: 0s;
+    -o-transition-duration: 0s;
+    transition-duration: 0s;
+}
+
+/* Disable CSS transitions for containers with infinite scrolling */
+.isotope.infinite-scrolling {
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+
+#portfolio{
+    width:100%;
+    padding-bottom:120px;
+    position:relative;
+    z-index:9;
+}
+#filter {
+    margin: 0 0 25px 15px;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    text-align: left;
+    width:100%;
+    border-bottom:1px solid #fafafa;
+    border-top:1px solid #fafafa;
+    z-index: 10;
+}
+#filter li {
+    float: left;
+}
+#filter li a{
+    color:#555;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius:0;
+    text-decoration: none;
+    padding:10px 20px;
+    font-size:14px;
+    position: relative;
+    overflow:hidden;
+    line-height: 12px;
+    border-right:1px solid #fff;
+    display: block;
+    transition: all .50s ease-in-out;-moz-transition: all .50s ease-in-out;-webkit-transition: all .50s ease-in-out;
+}
+#filter li.selected a, #filter li a:hover{
+    background:#056D9C;
+    color:#fff;
+    border-radius:1px;
+    transition: all .15s ease-in-out;
+    -moz-transition: all .15s ease-in-out;
+    -webkit-transition: all .215s ease-in-out;
+}
+
+#list{margin-bottom:30px;}
+.list_item:last-child{margin-bottom:0;}
+
+.portfolio_list{
+    position:relative;
+    padding: 0;
+}
+.list_item{
+    margin-bottom:3%;
+    overflow: hidden;
+}
+
+/* Portfolio Single Page
+====================================*/
+.portfolio_single{
+    padding:50px 0;
+}
+
+.project_details {
+    background-color:#fff;
+    overflow:hidden;
+    padding:0;
+}
+.project_detail_slider {margin-bottom: 30px;}
+.project_desc p{margin-bottom:20px;}
+.project_desc h6, .project_details h6 {
+    font-size: 20px;
+    margin-top: 5px;
+}
+.project_details .details li {
+    border-bottom: 1px solid #F2F2F2;
+    color: #A3A3A3;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 8px 0;
+}
+.project_details .details{margin: 0}
+.project_details .details li span {
+    color: #686868;
+    display: block;
+    float: left;
+    font-weight: bold;
+    height: 20px;
+    position: relative;
+    width: 30%;
+}
+.project_details .details li a {
+    color: #A3A3A3;
+    font-size: 12px;
+}
+
+.project_details .details li a:hover {color: #056D9C;}
+.project_detail_box {margin-bottom: 30px;}
+
+.project_description, .project_details{
+    margin-bottom: 30px;
+}
